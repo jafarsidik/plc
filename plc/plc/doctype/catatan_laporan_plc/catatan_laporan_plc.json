@@ -1,0 +1,166 @@
+{
+ "actions": [],
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2023-08-22 09:18:22.566746",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_d7gpx",
+  "tanggal",
+  "column_break_23poi",
+  "shief",
+  "section_break_nua85",
+  "penanggung_jawab",
+  "paraf_penanggung_jawab",
+  "column_break_hih37",
+  "pekerja",
+  "paraf_pekerja",
+  "column_break_iuyyh",
+  "spv_produksi",
+  "paraf_spv_produksi",
+  "section_break_jgxto",
+  "catatan_laporan_plc_detail",
+  "section_break_hvevz",
+  "total_ok",
+  "kesimpulan",
+  "column_break_yvue0",
+  "total_ns",
+  "keterangan_tidak_produksi"
+ ],
+ "fields": [
+  {
+   "fieldname": "tanggal",
+   "fieldtype": "Date",
+   "label": "Tanggal"
+  },
+  {
+   "fieldname": "penanggung_jawab",
+   "fieldtype": "Link",
+   "label": "Penanggung Jawab",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "shief",
+   "fieldtype": "Select",
+   "label": "Shief",
+   "options": "1\n2\n3\n4"
+  },
+  {
+   "fieldname": "pekerja",
+   "fieldtype": "Link",
+   "label": "Pekerja",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "spv_produksi",
+   "fieldtype": "Link",
+   "label": "Spv Produksi",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "total_ok",
+   "fieldtype": "Data",
+   "label": "Total OK"
+  },
+  {
+   "fieldname": "total_ns",
+   "fieldtype": "Data",
+   "label": "Total NS"
+  },
+  {
+   "fieldname": "kesimpulan",
+   "fieldtype": "Text Editor",
+   "label": "Kesimpulan"
+  },
+  {
+   "fieldname": "keterangan_tidak_produksi",
+   "fieldtype": "Text Editor",
+   "label": "Keterangan Tidak Produksi"
+  },
+  {
+   "fieldname": "section_break_d7gpx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_23poi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_nua85",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_hih37",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_iuyyh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_hvevz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paraf_penanggung_jawab",
+   "fieldtype": "Signature",
+   "label": "Paraf Penanggung Jawab"
+  },
+  {
+   "fieldname": "paraf_pekerja",
+   "fieldtype": "Signature",
+   "label": "Paraf Pekerja"
+  },
+  {
+   "fieldname": "paraf_spv_produksi",
+   "fieldtype": "Signature",
+   "label": "Paraf Spv Produksi"
+  },
+  {
+   "fieldname": "column_break_yvue0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_jgxto",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "catatan_laporan_plc_detail",
+   "fieldtype": "Table",
+   "label": "Catatan Laporan PLC Detail",
+   "options": "Catatan Laporan PLC Detail"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-08-22 13:57:25.518025",
+ "modified_by": "Administrator",
+ "module": "PLC",
+ "name": "Catatan Laporan PLC",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}
