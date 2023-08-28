@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-08-26 13:57:54.014417",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "type_bbk",
+  "nilai_perbandingan_campuran_1",
+  "nilai_perbandingan_campuran_2",
+  "nilai_perbandingan_campuran_3",
+  "nilai_perbandingan_campuran_4",
+  "kcal_kwalitas_kalori"
+ ],
+ "fields": [
+  {
+   "fieldname": "type_bbk",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Type BBK",
+   "options": "Fines 0-20mm\nRom 0-50mm\nLampi 50mm-up\nRaw Coal Asalan"
+  },
+  {
+   "fieldname": "nilai_perbandingan_campuran_1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nilai 1"
+  },
+  {
+   "fieldname": "nilai_perbandingan_campuran_2",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nilai 2"
+  },
+  {
+   "fieldname": "nilai_perbandingan_campuran_3",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nilai 3"
+  },
+  {
+   "fieldname": "nilai_perbandingan_campuran_4",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nilai 4"
+  },
+  {
+   "fieldname": "kcal_kwalitas_kalori",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "KCAL Kwalitas kalori"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-08-26 14:00:38.985312",
+ "modified_by": "Administrator",
+ "module": "PLC",
+ "name": "M Boiler Detail",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

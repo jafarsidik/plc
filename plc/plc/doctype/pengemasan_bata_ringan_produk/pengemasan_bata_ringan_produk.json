@@ -1,0 +1,258 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-08-28 23:33:03.721922",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "nama_produk",
+  "qty_palet",
+  "pcs",
+  "cbm",
+  "rincian_reject_section",
+  "patah_miring_100",
+  "lembab_100",
+  "cipe_100",
+  "retak_rambut_100",
+  "patah_atas_100",
+  "tidak_tembus_kawat_100",
+  "pendek_45_cm_100",
+  "gompal_100",
+  "reject_dimensi_100",
+  "potongan_trial_100",
+  "column_break_j37nr",
+  "patah_miring_75",
+  "lembab_75",
+  "cipe_75",
+  "retak_rambut_75",
+  "patah_atas_75",
+  "tidak_tembus_kawat_75",
+  "pendek_45_cm_75",
+  "gompal_75",
+  "reject_dimensi_75",
+  "potongan_trial_75",
+  "rincian_ns_section",
+  "ns_pendek_100",
+  "ns_retak_rambut_100",
+  "ns_cipe_100",
+  "ns_gompal_100",
+  "ns_dimensi100",
+  "column_break_cuik7",
+  "ns_pendek_75",
+  "ns_ratak_rambut_75",
+  "ns_cipe_75",
+  "ns_gompal_75",
+  "ns_dimensi_75"
+ ],
+ "fields": [
+  {
+   "fieldname": "nama_produk",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Nama Produk",
+   "options": "Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "qty_palet",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "QTY Palet",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pcs",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Pcs",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cbm",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "CBM",
+   "reqd": 1
+  },
+  {
+   "fieldname": "rincian_reject_section",
+   "fieldtype": "Section Break",
+   "label": "Rincian Reject"
+  },
+  {
+   "fieldname": "patah_miring_100",
+   "fieldtype": "Int",
+   "label": "Patah Miring 100"
+  },
+  {
+   "fieldname": "lembab_100",
+   "fieldtype": "Data",
+   "label": "Lembab 100"
+  },
+  {
+   "fieldname": "cipe_100",
+   "fieldtype": "Int",
+   "label": "Cipe 100"
+  },
+  {
+   "fieldname": "retak_rambut_100",
+   "fieldtype": "Int",
+   "label": "Retak Rambut 100"
+  },
+  {
+   "fieldname": "patah_atas_100",
+   "fieldtype": "Int",
+   "label": "Patah Atas 100"
+  },
+  {
+   "fieldname": "tidak_tembus_kawat_100",
+   "fieldtype": "Int",
+   "label": "Tidak Tembus Kawat 100"
+  },
+  {
+   "fieldname": "pendek_45_cm_100",
+   "fieldtype": "Int",
+   "label": "Pendek 45 cm 100"
+  },
+  {
+   "fieldname": "gompal_100",
+   "fieldtype": "Int",
+   "label": "Gompal 100"
+  },
+  {
+   "fieldname": "reject_dimensi_100",
+   "fieldtype": "Int",
+   "label": "Reject Dimensi 100"
+  },
+  {
+   "fieldname": "potongan_trial_100",
+   "fieldtype": "Data",
+   "label": "Potongan Trial 100"
+  },
+  {
+   "fieldname": "column_break_j37nr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "patah_miring_75",
+   "fieldtype": "Int",
+   "label": "Patah Miring 75"
+  },
+  {
+   "fieldname": "lembab_75",
+   "fieldtype": "Int",
+   "label": "Lembab 75"
+  },
+  {
+   "fieldname": "cipe_75",
+   "fieldtype": "Int",
+   "label": "Cipe 75"
+  },
+  {
+   "fieldname": "retak_rambut_75",
+   "fieldtype": "Int",
+   "label": "Retak Rambut 75"
+  },
+  {
+   "fieldname": "patah_atas_75",
+   "fieldtype": "Int",
+   "label": "Patah Atas 75"
+  },
+  {
+   "fieldname": "tidak_tembus_kawat_75",
+   "fieldtype": "Int",
+   "label": "Tidak Tembus Kawat 75"
+  },
+  {
+   "fieldname": "pendek_45_cm_75",
+   "fieldtype": "Int",
+   "label": "Pendek 45 cm 75"
+  },
+  {
+   "fieldname": "gompal_75",
+   "fieldtype": "Int",
+   "label": "Gompal 75"
+  },
+  {
+   "fieldname": "reject_dimensi_75",
+   "fieldtype": "Int",
+   "label": "Reject Dimensi 75"
+  },
+  {
+   "fieldname": "potongan_trial_75",
+   "fieldtype": "Int",
+   "label": "Potongan Trial 75"
+  },
+  {
+   "fieldname": "rincian_ns_section",
+   "fieldtype": "Section Break",
+   "label": "Rincian NS"
+  },
+  {
+   "fieldname": "ns_pendek_100",
+   "fieldtype": "Int",
+   "label": "Pendek 100"
+  },
+  {
+   "fieldname": "ns_retak_rambut_100",
+   "fieldtype": "Int",
+   "label": "Retak Rambut 100"
+  },
+  {
+   "fieldname": "ns_cipe_100",
+   "fieldtype": "Int",
+   "label": "Cipe 100"
+  },
+  {
+   "fieldname": "ns_gompal_100",
+   "fieldtype": "Int",
+   "label": "Gompal 100"
+  },
+  {
+   "fieldname": "ns_dimensi100",
+   "fieldtype": "Int",
+   "label": "NS Dimensi 100"
+  },
+  {
+   "fieldname": "column_break_cuik7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ns_pendek_75",
+   "fieldtype": "Int",
+   "label": "Pendek 75"
+  },
+  {
+   "fieldname": "ns_ratak_rambut_75",
+   "fieldtype": "Int",
+   "label": "Retak Rambut 75"
+  },
+  {
+   "fieldname": "ns_cipe_75",
+   "fieldtype": "Int",
+   "label": "Cipe 75"
+  },
+  {
+   "fieldname": "ns_gompal_75",
+   "fieldtype": "Int",
+   "label": "Gompal 75"
+  },
+  {
+   "fieldname": "ns_dimensi_75",
+   "fieldtype": "Int",
+   "label": "NS Dimensi 75"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-08-28 23:49:13.526556",
+ "modified_by": "Administrator",
+ "module": "PLC",
+ "name": "Pengemasan Bata Ringan Produk",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

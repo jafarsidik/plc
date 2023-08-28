@@ -215,3 +215,12 @@ app_license = "MIT"
 # auth_hooks = [
 #	"plc.auth.validate"
 # ]
+fixtures = [
+    {"dt": "Workspace", "filters": [
+        [
+            "name", "in", [
+                "Manufacturing"
+            ]            
+        ]
+    ]},
+]

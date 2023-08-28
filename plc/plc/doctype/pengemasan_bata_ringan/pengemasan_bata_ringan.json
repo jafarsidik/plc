@@ -1,0 +1,156 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-08-28 23:30:21.861938",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_8qugy",
+  "no_ac",
+  "column_break_c2mdn",
+  "tanggal",
+  "jam_mulai_section",
+  "jam_mulai",
+  "column_break_vsksq",
+  "jam_selesai",
+  "dibuat_oleh_section",
+  "operator_hoist_4",
+  "column_break_wf1hb",
+  "operator_forklft",
+  "disetujui_oleh_section",
+  "spv_production",
+  "column_break_kxa5x",
+  "spv_warehouse",
+  "produk_section",
+  "produk"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_8qugy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "no_ac",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "No AC",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_c2mdn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tanggal",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Tanggal",
+   "reqd": 1
+  },
+  {
+   "fieldname": "jam_mulai_section",
+   "fieldtype": "Section Break",
+   "label": "Jam Pengerjaan"
+  },
+  {
+   "fieldname": "jam_mulai",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Jam Mulai",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_vsksq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "jam_selesai",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Jam Selesai",
+   "reqd": 1
+  },
+  {
+   "fieldname": "dibuat_oleh_section",
+   "fieldtype": "Section Break",
+   "label": "Dibuat Oleh"
+  },
+  {
+   "fieldname": "operator_hoist_4",
+   "fieldtype": "Link",
+   "label": "Operator HOIST 4",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_wf1hb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "operator_forklft",
+   "fieldtype": "Link",
+   "label": "Operator Forklft",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "disetujui_oleh_section",
+   "fieldtype": "Section Break",
+   "label": "Disetujui Oleh"
+  },
+  {
+   "fieldname": "spv_production",
+   "fieldtype": "Link",
+   "label": "SPV Production",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_kxa5x",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "spv_warehouse",
+   "fieldtype": "Link",
+   "label": "SPV Warehouse",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "produk_section",
+   "fieldtype": "Section Break",
+   "label": "Produk"
+  },
+  {
+   "fieldname": "produk",
+   "fieldtype": "Table",
+   "label": "Produk",
+   "options": "Pengemasan Bata Ringan Produk"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-08-28 23:44:43.893684",
+ "modified_by": "Administrator",
+ "module": "PLC",
+ "name": "Pengemasan Bata Ringan",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1
+}

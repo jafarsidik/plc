@@ -1,0 +1,211 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-08-26 10:56:34.371603",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "catatan_laporan_section",
+  "tanggal",
+  "shief",
+  "operator",
+  "jumlah_p",
+  "nama_bbk",
+  "column_break_cpela",
+  "bucket",
+  "kg",
+  "total_kg",
+  "tekanan",
+  "keperluan",
+  "jam_kerja_section",
+  "mulai_kerja",
+  "column_break_5xis7",
+  "selesai_kerja",
+  "section_break_xdytj",
+  "perbandingan_campuran",
+  "supplier_section",
+  "supplier_bbk",
+  "perawatan",
+  "kerusakan",
+  "column_break_eshan",
+  "archem_160",
+  "archem_261",
+  "oli_90"
+ ],
+ "fields": [
+  {
+   "fieldname": "catatan_laporan_section",
+   "fieldtype": "Section Break",
+   "label": "Catatan Laporan"
+  },
+  {
+   "fieldname": "tanggal",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Tanggal",
+   "reqd": 1
+  },
+  {
+   "fieldname": "shief",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Shief",
+   "options": "1\n2\n3",
+   "reqd": 1
+  },
+  {
+   "fieldname": "operator",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Operator",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "jumlah_p",
+   "fieldtype": "Data",
+   "label": "Jumlah P"
+  },
+  {
+   "fieldname": "nama_bbk",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Nama BBK",
+   "options": "Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_cpela",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bucket",
+   "fieldtype": "Data",
+   "label": "Bucket",
+   "reqd": 1
+  },
+  {
+   "fieldname": "kg",
+   "fieldtype": "Data",
+   "label": "Kg",
+   "reqd": 1
+  },
+  {
+   "fieldname": "total_kg",
+   "fieldtype": "Read Only",
+   "label": "Total Kg"
+  },
+  {
+   "fieldname": "tekanan",
+   "fieldtype": "Data",
+   "label": "Tekanan",
+   "reqd": 1
+  },
+  {
+   "fieldname": "keperluan",
+   "fieldtype": "Small Text",
+   "label": "Keperluan",
+   "reqd": 1
+  },
+  {
+   "fieldname": "jam_kerja_section",
+   "fieldtype": "Section Break",
+   "label": "Jam Kerja"
+  },
+  {
+   "fieldname": "mulai_kerja",
+   "fieldtype": "Time",
+   "label": "Mulai Kerja",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_5xis7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "selesai_kerja",
+   "fieldtype": "Time",
+   "label": "Selesai Kerja",
+   "reqd": 1
+  },
+  {
+   "fieldname": "supplier_section",
+   "fieldtype": "Section Break",
+   "label": "Supplier"
+  },
+  {
+   "fieldname": "supplier_bbk",
+   "fieldtype": "Link",
+   "label": "Supplier BBK",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "perawatan",
+   "fieldtype": "Data",
+   "label": "Perawatan"
+  },
+  {
+   "fieldname": "kerusakan",
+   "fieldtype": "Data",
+   "label": "Kerusakan"
+  },
+  {
+   "fieldname": "column_break_eshan",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "archem_160",
+   "fieldtype": "Data",
+   "label": "Archem 160"
+  },
+  {
+   "fieldname": "archem_261",
+   "fieldtype": "Data",
+   "label": "Archem 261"
+  },
+  {
+   "fieldname": "oli_90",
+   "fieldtype": "Data",
+   "label": "Oli 90"
+  },
+  {
+   "fieldname": "section_break_xdytj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "perbandingan_campuran",
+   "fieldtype": "Table",
+   "label": "Perbandingan Campuran",
+   "options": "M Boiler Detail"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-08-26 13:59:07.573739",
+ "modified_by": "Administrator",
+ "module": "PLC",
+ "name": "M Boiler",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}
