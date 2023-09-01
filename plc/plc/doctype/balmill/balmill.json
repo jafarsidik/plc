@@ -19,11 +19,7 @@
   "column_break_1tdyv",
   "gypsum_kg",
   "column_break_s0s8f",
-  "bola_besi_kg",
-  "column_break_ctbsq",
-  "archem_261",
-  "column_break_pxcgb",
-  "archem_160"
+  "bola_besi_kg"
  ],
  "fields": [
   {
@@ -94,25 +90,6 @@
    "reqd": 1
   },
   {
-   "fieldname": "column_break_ctbsq",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "archem_261",
-   "fieldtype": "Data",
-   "label": "Archem 261 "
-  },
-  {
-   "fieldname": "column_break_pxcgb",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "archem_160",
-   "fieldtype": "Data",
-   "label": "Archem 160",
-   "reqd": 1
-  },
-  {
    "fieldname": "pekerja",
    "fieldtype": "Link",
    "label": "Pekerja",
@@ -121,7 +98,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-01 07:41:58.149972",
+ "modified": "2023-09-01 12:21:31.587442",
  "modified_by": "Administrator",
  "module": "PLC",
  "name": "Balmill",

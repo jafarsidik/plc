@@ -50,7 +50,7 @@
    "fieldname": "operator",
    "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "Operator",
+   "label": "Pekerja",
    "options": "Employee",
    "reqd": 1
   },
@@ -135,7 +135,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-08-31 17:28:53.631528",
+ "modified": "2023-09-01 12:20:51.419856",
  "modified_by": "Administrator",
  "module": "PLC",
  "name": "M Boiler",
