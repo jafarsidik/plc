@@ -1,0 +1,142 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-01 07:27:29.517962",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_edyb2",
+  "tanggal",
+  "mulai_kerja",
+  "column_break_asgg4",
+  "shif",
+  "jam_selesai",
+  "section_break_scnw5",
+  "pasir_cbm",
+  "column_break_1tdyv",
+  "gypsum_kg",
+  "column_break_s0s8f",
+  "bola_besi_kg",
+  "column_break_ctbsq",
+  "archem_261",
+  "column_break_pxcgb",
+  "archem_160"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_edyb2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tanggal",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Tanggal",
+   "reqd": 1
+  },
+  {
+   "fieldname": "shif",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Shif",
+   "options": "1\n2\n3\n4",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_asgg4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mulai_kerja",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Mulai Kerja",
+   "reqd": 1
+  },
+  {
+   "fieldname": "jam_selesai",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Jam Selesai",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_scnw5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "pasir_cbm",
+   "fieldtype": "Data",
+   "label": "Pasir (CBM)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_1tdyv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gypsum_kg",
+   "fieldtype": "Data",
+   "label": "Gypsum (Kg)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_s0s8f",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bola_besi_kg",
+   "fieldtype": "Data",
+   "label": "Bola Besi (Kg)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ctbsq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "archem_261",
+   "fieldtype": "Data",
+   "label": "Archem 261 "
+  },
+  {
+   "fieldname": "column_break_pxcgb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "archem_160",
+   "fieldtype": "Data",
+   "label": "Archem 160",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-01 07:28:07.700578",
+ "modified_by": "Administrator",
+ "module": "PLC",
+ "name": "Balmill",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}
