@@ -8,6 +8,7 @@
  "engine": "InnoDB",
  "field_order": [
   "section_break_edyb2",
+  "pekerja",
   "tanggal",
   "mulai_kerja",
   "column_break_asgg4",
@@ -110,11 +111,17 @@
    "fieldtype": "Data",
    "label": "Archem 160",
    "reqd": 1
+  },
+  {
+   "fieldname": "pekerja",
+   "fieldtype": "Link",
+   "label": "Pekerja",
+   "options": "Employee"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-01 07:28:07.700578",
+ "modified": "2023-09-01 07:39:57.762649",
  "modified_by": "Administrator",
  "module": "PLC",
  "name": "Balmill",
