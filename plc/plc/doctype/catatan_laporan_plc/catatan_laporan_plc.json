@@ -41,11 +41,9 @@
   },
   {
    "fieldname": "penanggung_jawab",
-   "fieldtype": "Link",
+   "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Penanggung Jawab",
-   "options": "Employee",
-   "reqd": 1
+   "label": "Penanggung Jawab"
   },
   {
    "fieldname": "shief",
@@ -55,17 +53,14 @@
   },
   {
    "fieldname": "pekerja",
-   "fieldtype": "Link",
+   "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Pekerja",
-   "options": "Employee",
-   "reqd": 1
+   "label": "Pekerja"
   },
   {
    "fieldname": "spv_produksi",
-   "fieldtype": "Link",
-   "label": "Spv Produksi",
-   "options": "Employee"
+   "fieldtype": "Data",
+   "label": "Spv Produksi"
   },
   {
    "fieldname": "total_ok",
@@ -145,7 +140,7 @@
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-08-28 23:54:37.115368",
+ "modified": "2023-09-25 09:09:18.062218",
  "modified_by": "Administrator",
  "module": "PLC",
  "name": "Catatan Laporan PLC",

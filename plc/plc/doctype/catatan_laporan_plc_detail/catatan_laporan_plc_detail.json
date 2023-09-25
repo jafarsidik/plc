@@ -11,6 +11,7 @@
   "alu_kg",
   "air_kg",
   "suhu_cao",
+  "oli",
   "column_break_w3ajq",
   "suhu_bp",
   "steam_",
@@ -101,12 +102,17 @@
    "fieldname": "ket_gagal_produksi",
    "fieldtype": "Text",
    "label": "Ket Gagal Produksi"
+  },
+  {
+   "fieldname": "oli",
+   "fieldtype": "Data",
+   "label": "Oli"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-08-22 11:32:08.423822",
+ "modified": "2023-09-25 09:08:17.592402",
  "modified_by": "Administrator",
  "module": "PLC",
  "name": "Catatan Laporan PLC Detail",
