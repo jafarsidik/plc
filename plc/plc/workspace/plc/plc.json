@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"xd5SPqn8ZD\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">PLC System</span>\",\"col\":12}},{\"id\":\"wmG35FTlnL\",\"type\":\"card\",\"data\":{\"card_name\":\"Sales\",\"col\":3}},{\"id\":\"bzMvheXMnx\",\"type\":\"card\",\"data\":{\"card_name\":\"Item Stock\",\"col\":3}},{\"id\":\"p3yUSP9pnS\",\"type\":\"card\",\"data\":{\"card_name\":\"Manufacture\",\"col\":3}},{\"id\":\"5-yRLtrNei\",\"type\":\"card\",\"data\":{\"card_name\":\"Production\",\"col\":3}},{\"id\":\"RsjUGXoJWv\",\"type\":\"card\",\"data\":{\"card_name\":\"Reporting\",\"col\":4}},{\"id\":\"z99s1hzke1\",\"type\":\"card\",\"data\":{\"card_name\":\"Setting PLC\",\"col\":3}}]",
+ "content": "[{\"id\":\"xd5SPqn8ZD\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">PLC System</span>\",\"col\":12}},{\"id\":\"wmG35FTlnL\",\"type\":\"card\",\"data\":{\"card_name\":\"Sales\",\"col\":3}},{\"id\":\"aUIlB3vfb8\",\"type\":\"card\",\"data\":{\"card_name\":\"Purchasing\",\"col\":3}},{\"id\":\"bzMvheXMnx\",\"type\":\"card\",\"data\":{\"card_name\":\"Item Stock\",\"col\":3}},{\"id\":\"p3yUSP9pnS\",\"type\":\"card\",\"data\":{\"card_name\":\"Manufacture\",\"col\":3}},{\"id\":\"5-yRLtrNei\",\"type\":\"card\",\"data\":{\"card_name\":\"Production\",\"col\":3}},{\"id\":\"RsjUGXoJWv\",\"type\":\"card\",\"data\":{\"card_name\":\"Reporting\",\"col\":4}},{\"id\":\"z99s1hzke1\",\"type\":\"card\",\"data\":{\"card_name\":\"Setting PLC\",\"col\":3}}]",
  "creation": "2023-10-11 13:23:49.818981",
  "custom_blocks": [],
  "docstatus": 0,
@@ -129,54 +129,6 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Item Stock",
-   "link_count": 4,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Item",
-   "link_count": 0,
-   "link_to": "Item",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Stock Entry",
-   "link_count": 0,
-   "link_to": "Stock Entry",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Purchase Order",
-   "link_count": 0,
-   "link_to": "Purchase Order",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Purchase Invoice",
-   "link_count": 0,
-   "link_to": "Purchase Invoice",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
    "label": "Reporting",
    "link_count": 4,
    "onboard": 0,
@@ -259,9 +211,75 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Purchasing",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Supplier",
+   "link_count": 0,
+   "link_to": "Supplier",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Purchase Order",
+   "link_count": 0,
+   "link_to": "Purchase Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Purchase Invoice",
+   "link_count": 0,
+   "link_to": "Purchase Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Item Stock",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Item",
+   "link_count": 0,
+   "link_to": "Item",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Stock Entry",
+   "link_count": 0,
+   "link_to": "Stock Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2023-10-11 13:59:45.274813",
+ "modified": "2023-10-11 14:31:52.849887",
  "modified_by": "Administrator",
  "module": "PLC",
  "name": "PLC",
