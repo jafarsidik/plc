@@ -1,0 +1,124 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:email",
+ "creation": "2023-10-17 00:40:15.453834",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "supplier_name",
+  "supplier_group",
+  "supplier_type",
+  "email",
+  "mobile_phone",
+  "status",
+  "section_break_om7wj",
+  "akta_notaris",
+  "nib",
+  "npwp"
+ ],
+ "fields": [
+  {
+   "fieldname": "supplier_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Supplier Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "supplier_group",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Supplier Group",
+   "options": "Supplier Group",
+   "reqd": 1
+  },
+  {
+   "fieldname": "supplier_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Supplier Type",
+   "options": "Company\nIndividual",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "mobile_phone",
+   "fieldtype": "Data",
+   "label": "Mobile Phone",
+   "reqd": 1
+  },
+  {
+   "default": "Unverified",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Verified\nUnverified"
+  },
+  {
+   "fieldname": "section_break_om7wj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "akta_notaris",
+   "fieldtype": "Attach",
+   "label": "Akta Notaris"
+  },
+  {
+   "fieldname": "nib",
+   "fieldtype": "Attach",
+   "label": "NIB"
+  },
+  {
+   "fieldname": "npwp",
+   "fieldtype": "Attach",
+   "label": "NPWP"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "Supplier",
+   "link_fieldname": "email_id",
+   "table_fieldname": "supplier_name"
+  },
+  {
+   "link_doctype": "User",
+   "link_fieldname": "email"
+  }
+ ],
+ "modified": "2023-10-17 01:10:19.143067",
+ "modified_by": "Administrator",
+ "module": "PLC",
+ "name": "Register Vendor",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

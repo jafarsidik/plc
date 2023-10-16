@@ -215,8 +215,36 @@
   {
    "hidden": 0,
    "is_query_report": 0,
+   "label": "Item Stock",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Item",
+   "link_count": 0,
+   "link_to": "Item",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Stock Entry",
+   "link_count": 0,
+   "link_to": "Stock Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Purchasing",
-   "link_count": 3,
+   "link_count": 6,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -253,33 +281,35 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Item Stock",
-   "link_count": 2,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Item",
+   "label": "Request For Quotation",
    "link_count": 0,
-   "link_to": "Item",
+   "link_to": "Request for Quotation",
    "link_type": "DocType",
-   "onboard": 1,
+   "onboard": 0,
    "type": "Link"
   },
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Stock Entry",
+   "label": "Supplier Quotation",
    "link_count": 0,
-   "link_to": "Stock Entry",
+   "link_to": "Supplier Quotation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Register Vendor",
+   "link_count": 0,
+   "link_to": "Register Vendor",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2023-10-11 14:31:52.849887",
+ "modified": "2023-10-17 01:18:43.994825",
  "modified_by": "Administrator",
  "module": "PLC",
  "name": "PLC",
